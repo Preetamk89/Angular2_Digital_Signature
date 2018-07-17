@@ -1,0 +1,10 @@
+.signature {
+  height: 224px;
+  width: 572px;
+  border: 2px solid black;
+}
+
+.signature canvas {
+  height: 100%;
+  width: 100%;
+}

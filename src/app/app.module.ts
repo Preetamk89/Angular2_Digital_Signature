@@ -1,16 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-
+import { RegistrationComponent } from './registration/registration.component';
+import { SignaturePadModule } from 'angular2-signaturepad';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegistrationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SignaturePadModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
